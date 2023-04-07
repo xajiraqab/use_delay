@@ -2,7 +2,7 @@
   "name": "use_delay",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://xajiraqab.github.io/use_delay_example",
+  "homepage": "https://xajiraqab.github.io/use_delay",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
