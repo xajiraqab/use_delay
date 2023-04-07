@@ -5,11 +5,11 @@ useDelay is a custom React hook that provides a simple way to delay the executio
 
 
 # Usage
-![alt text](https://github.com/xajiraqab/use_delay/blob/main/readmeres/%231.png?raw=true)
+![alt text](https://github.com/xajiraqab/use_delay/blob/main/readmeres/call_useDelay.png.png?raw=true)
 
 
 # Api
 useDelay accepts three arguments:
-callback (required): A function to be called after the value changes and the delay duration has passed. The function receives the new value as its only argument.
-value (required): The value to observe for changes. The callback function will be called after the duration has passed since the value was last updated.
-duration (optional, default: 800): The delay duration in milliseconds. This determines how long useDelay should wait before calling the callback function.
+* callback (required): A function to be called after the value changes and the delay duration has passed. The function receives the new value as its only argument.
+* value (required): The value to observe for changes. The callback function will be called after the duration has passed since the value was last updated.
+* duration (optional, default: 800): The delay duration in milliseconds. This determines how long useDelay should wait before calling the callback function.
