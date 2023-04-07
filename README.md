@@ -5,7 +5,7 @@ useDelay is a custom React hook that provides a simple way to delay the executio
 
 
 # Usage
-![alt text](https://github.com/xajiraqab/use_delay/blob/main/readmeres/call_useDelay.png.png?raw=true)
+![alt text](https://github.com/xajiraqab/use_delay/blob/main/readmeres/call_useDelay.png?raw=true)
 
 
 # Api
