@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/use_delay_example/static/css/main.3fd0adf9.css",
-    "main.js": "/use_delay_example/static/js/main.6797d18a.js",
-    "static/js/787.25facca0.chunk.js": "/use_delay_example/static/js/787.25facca0.chunk.js",
-    "index.html": "/use_delay_example/index.html",
-    "main.3fd0adf9.css.map": "/use_delay_example/static/css/main.3fd0adf9.css.map",
-    "main.6797d18a.js.map": "/use_delay_example/static/js/main.6797d18a.js.map",
-    "787.25facca0.chunk.js.map": "/use_delay_example/static/js/787.25facca0.chunk.js.map"
+    "main.css": "/use_delay/static/css/main.3fd0adf9.css",
+    "main.js": "/use_delay/static/js/main.11f6e83c.js",
+    "static/js/787.25facca0.chunk.js": "/use_delay/static/js/787.25facca0.chunk.js",
+    "index.html": "/use_delay/index.html",
+    "main.3fd0adf9.css.map": "/use_delay/static/css/main.3fd0adf9.css.map",
+    "main.11f6e83c.js.map": "/use_delay/static/js/main.11f6e83c.js.map",
+    "787.25facca0.chunk.js.map": "/use_delay/static/js/787.25facca0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fd0adf9.css",
-    "static/js/main.6797d18a.js"
+    "static/js/main.11f6e83c.js"
   ]
 }
