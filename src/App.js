@@ -8,20 +8,25 @@ function App() {
   const [listProducts, setListproducts] = useState([])
 
   const [searchValue, setSearchValue] = useState("")
-
+  
   function search() {
     setIsLoading(true)
     fetch(`https://dummyjson.com/products/search?q=${searchValue}`)
       .then(res => res.json())
       .then(data => {
         setListproducts(data.products)
+        setIsLoading(false)
       })
       .catch((error) => {
         console.log(error)
+        setIsLoading(false)
       });
   }
-
+  
   useDelay(search, searchValue, 1000)
+
+
+  
 
 
   return (
