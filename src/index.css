@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Nunito&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  min-height: 100vh;
+  background-color: #202124;
+  color: rgba(255, 255, 255, .87);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  border: 1px solid #1C1F22;
+  background: #202124;
+  outline: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  color: rgba(255, 255, 255, .87);
+  border-radius: 0.3rem;
+  transition: box-shadow ease 250ms;
+}
+
+input:focus {
+  box-shadow: 0 0 0 4px #836AD3;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, .67);
+  opacity: 1;
+}
+
+@keyframes anRotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
