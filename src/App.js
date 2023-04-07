@@ -8,8 +8,6 @@ function App() {
   const [listProducts, setListproducts] = useState([])
 
   const [searchValue, setSearchValue] = useState("")
-  useDelay(search, searchValue)
-
 
   function search() {
     setIsLoading(true)
@@ -17,13 +15,13 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setListproducts(data.products)
-        setIsLoading(false)
       })
       .catch((error) => {
         console.log(error)
-        setIsLoading(false)
       });
   }
+
+  useDelay(search, searchValue, 1000)
 
 
   return (
